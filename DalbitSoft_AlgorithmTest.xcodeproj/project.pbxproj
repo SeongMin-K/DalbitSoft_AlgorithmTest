@@ -11,9 +11,10 @@
 		3E0DD31527134F470085F5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD31427134F470085F5E8 /* ViewController.swift */; };
 		3E0DD31727134F480085F5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0DD31627134F480085F5E8 /* Assets.xcassets */; };
 		3E0DD31A27134F480085F5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0DD31827134F480085F5E8 /* Main.storyboard */; };
-		3E0DD32527134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD32427134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.swift */; };
+		3E0DD32527134F480085F5E8 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD32427134F480085F5E8 /* TriangleTests.swift */; };
 		3E0DD32F27134F480085F5E8 /* DalbitSoft_AlgorithmTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD32E27134F480085F5E8 /* DalbitSoft_AlgorithmTestUITests.swift */; };
 		3E0DD33127134F480085F5E8 /* DalbitSoft_AlgorithmTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD33027134F480085F5E8 /* DalbitSoft_AlgorithmTestUITestsLaunchTests.swift */; };
+		3E0DD341271350770085F5E8 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD33D27134F7E0085F5E8 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +42,11 @@
 		3E0DD31927134F480085F5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E0DD31B27134F480085F5E8 /* DalbitSoft_AlgorithmTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DalbitSoft_AlgorithmTest.entitlements; sourceTree = "<group>"; };
 		3E0DD32027134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalbitSoft_AlgorithmTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E0DD32427134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalbitSoft_AlgorithmTestTests.swift; sourceTree = "<group>"; };
+		3E0DD32427134F480085F5E8 /* TriangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 		3E0DD32A27134F480085F5E8 /* DalbitSoft_AlgorithmTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalbitSoft_AlgorithmTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0DD32E27134F480085F5E8 /* DalbitSoft_AlgorithmTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalbitSoft_AlgorithmTestUITests.swift; sourceTree = "<group>"; };
 		3E0DD33027134F480085F5E8 /* DalbitSoft_AlgorithmTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalbitSoft_AlgorithmTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E0DD33D27134F7E0085F5E8 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		3E0DD31127134F470085F5E8 /* DalbitSoft_AlgorithmTest */ = {
 			isa = PBXGroup;
 			children = (
+				3E0DD33D27134F7E0085F5E8 /* Triangle.swift */,
 				3E0DD31227134F470085F5E8 /* AppDelegate.swift */,
 				3E0DD31427134F470085F5E8 /* ViewController.swift */,
 				3E0DD31627134F480085F5E8 /* Assets.xcassets */,
@@ -107,7 +110,7 @@
 		3E0DD32327134F480085F5E8 /* DalbitSoft_AlgorithmTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E0DD32427134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.swift */,
+				3E0DD32427134F480085F5E8 /* TriangleTests.swift */,
 			);
 			path = DalbitSoft_AlgorithmTestTests;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0DD341271350770085F5E8 /* Triangle.swift in Sources */,
 				3E0DD31527134F470085F5E8 /* ViewController.swift in Sources */,
 				3E0DD31327134F470085F5E8 /* AppDelegate.swift in Sources */,
 			);
@@ -260,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0DD32527134F480085F5E8 /* DalbitSoft_AlgorithmTestTests.swift in Sources */,
+				3E0DD32527134F480085F5E8 /* TriangleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
