@@ -26,33 +26,43 @@ struct SecretHandshake {
     
     var commands: [String] {
         var result: [String] = []
+        
+        // ex) 11 -> 00011로 변환하는 과정
         let str = "00000" + String(num, radix: 2)
         let startIdx: String.Index = str.index(str.endIndex, offsetBy: -5)
         let binary = String(str[startIdx...])
+        
         var count = 0
         var reverse = true
         
+        // * 기본적으로 배열 순서가 반대 *
         for s in binary {
             if s == "1" {
+                // 1xxxx 이면 그대로
                 if count == 0 {
                     reverse = false
                 }
+                // x1xxx 이면 jump 추가
                 else if count == 1 {
                     result.append("jump")
                 }
+                // xx1xx 이면 close your eyes 추가
                 else if count == 2 {
                     result.append("close your eyes")
                 }
+                // xxx1x 이면 double blink 추가
                 else if count == 3 {
                     result.append("double blink")
                 }
+                // xxxx1 이면 wink 추가
                 else if count == 4 {
                     result.append("wink")
                 }
             }
+            // 다음 비트로
             count += 1
         }
-
+        // 1xxxx 아니면 반대로
         if reverse == true {
             result = result.reversed()
             print("reverse: \(num)")
