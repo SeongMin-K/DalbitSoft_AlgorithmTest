@@ -1,5 +1,5 @@
 //
-//  DalbitSoft_AlgorithmTestTests.swift
+//  TriangleTests.swift
 //  DalbitSoft_AlgorithmTestTests
 //
 //  Created by SeongMinK on 2021/10/11.
