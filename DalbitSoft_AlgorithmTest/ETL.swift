@@ -27,7 +27,6 @@
 // - "b" is worth 3 points.
 // - "c" is worth 3 points.
 
-// 딕셔너리 인덱스 접근으로 수정 필요 /////////////////////
 class ETL {
     static func transform(old: [Int: [String]]) -> [String: Int] {
         var results = [String: Int]()
