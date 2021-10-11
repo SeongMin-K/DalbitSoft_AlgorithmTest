@@ -19,6 +19,10 @@
 		3E0DD3452713519E0085F5E8 /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD3442713519E0085F5E8 /* ETL.swift */; };
 		3E0DD3472713525B0085F5E8 /* SecretHandShakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD3462713525B0085F5E8 /* SecretHandShakeTests.swift */; };
 		3E0DD349271352770085F5E8 /* SecretHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0DD348271352770085F5E8 /* SecretHandshake.swift */; };
+		3EBB26022713C6A800711585 /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB26012713C6A800711585 /* MatrixTests.swift */; };
+		3EBB26042713C6D600711585 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB26032713C6D600711585 /* Matrix.swift */; };
+		3EBB26062713C75B00711585 /* CustomSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB26052713C75B00711585 /* CustomSetTests.swift */; };
+		3EBB26082713C77000711585 /* CustomSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB26072713C77000711585 /* CustomSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		3E0DD3442713519E0085F5E8 /* ETL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		3E0DD3462713525B0085F5E8 /* SecretHandShakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretHandShakeTests.swift; sourceTree = "<group>"; };
 		3E0DD348271352770085F5E8 /* SecretHandshake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretHandshake.swift; sourceTree = "<group>"; };
+		3EBB26012713C6A800711585 /* MatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
+		3EBB26032713C6D600711585 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		3EBB26052713C75B00711585 /* CustomSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSetTests.swift; sourceTree = "<group>"; };
+		3EBB26072713C77000711585 /* CustomSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 				3E0DD33D27134F7E0085F5E8 /* Triangle.swift */,
 				3E0DD3442713519E0085F5E8 /* ETL.swift */,
 				3E0DD348271352770085F5E8 /* SecretHandshake.swift */,
+				3EBB26032713C6D600711585 /* Matrix.swift */,
+				3EBB26072713C77000711585 /* CustomSet.swift */,
 				3E0DD31227134F470085F5E8 /* AppDelegate.swift */,
 				3E0DD31427134F470085F5E8 /* ViewController.swift */,
 				3E0DD31627134F480085F5E8 /* Assets.xcassets */,
@@ -123,6 +133,8 @@
 				3E0DD32427134F480085F5E8 /* TriangleTests.swift */,
 				3E0DD3422713516C0085F5E8 /* ETLTests.swift */,
 				3E0DD3462713525B0085F5E8 /* SecretHandShakeTests.swift */,
+				3EBB26012713C6A800711585 /* MatrixTests.swift */,
+				3EBB26052713C75B00711585 /* CustomSetTests.swift */,
 			);
 			path = DalbitSoft_AlgorithmTestTests;
 			sourceTree = "<group>";
@@ -268,6 +280,8 @@
 			files = (
 				3E0DD349271352770085F5E8 /* SecretHandshake.swift in Sources */,
 				3E0DD341271350770085F5E8 /* Triangle.swift in Sources */,
+				3EBB26082713C77000711585 /* CustomSet.swift in Sources */,
+				3EBB26042713C6D600711585 /* Matrix.swift in Sources */,
 				3E0DD31527134F470085F5E8 /* ViewController.swift in Sources */,
 				3E0DD31327134F470085F5E8 /* AppDelegate.swift in Sources */,
 				3E0DD3452713519E0085F5E8 /* ETL.swift in Sources */,
@@ -278,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBB26022713C6A800711585 /* MatrixTests.swift in Sources */,
+				3EBB26062713C75B00711585 /* CustomSetTests.swift in Sources */,
 				3E0DD32527134F480085F5E8 /* TriangleTests.swift in Sources */,
 				3E0DD3472713525B0085F5E8 /* SecretHandShakeTests.swift in Sources */,
 				3E0DD3432713516C0085F5E8 /* ETLTests.swift in Sources */,
